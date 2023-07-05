@@ -16,10 +16,20 @@
 >> Comprobar
 >>> En el navegador abrir [http://localhost:4200](http://localhost:4200) 
 
->### Creación de un componente `HomeComponent`  
+>### Creación de un componente *HomeComponent*  
 >> - navegar al directorio principal  
 >>   ``ng generate component Home --standalone --inline-template --skip-tests``
 
->### Creación de una interfaz `housinglocation`
+>### Creación de una interfaz *HousingLocation*
 >> - navegar al directorio principal  
 >>   ``ng generate interface housinglocation``
+
+>### Creación de un servicio *HousingService*
+>> - navegar al directorio principal  
+>>   ``ng generate service housing --skip-tests``
+
+>### Generar mock para método *GET*
+>> - instalar el json-server
+>>    ``npm install -g json-server``
+>> - levantar el *mock* con los datos de prueba del fichero **db.json**
+>>    ``json-server --watch db.json``
