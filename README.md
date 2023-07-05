@@ -29,7 +29,7 @@
 >>   ``ng generate service housing --skip-tests``
 
 >### Generar mock para método *GET*
->> - instalar el json-server
->>    ``npm install -g json-server``
->> - levantar el *mock* con los datos de prueba del fichero **db.json**
->>    ``json-server --watch db.json``
+>> - instalar el json-server  
+>>   ``npm install -g json-server``
+>> - levantar el *mock* con los datos de prueba del fichero **db.json**  
+>>   ``json-server --watch db.json``
