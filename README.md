@@ -1,6 +1,6 @@
 # angularjs-first-app
 
-> [Angular tutorial - the First Angular app](Angular tutorial - the First Angular app)
+> [Angular tutorial - the First Angular app]([Angular tutorial - the First Angular app](https://angular.io/tutorial/first-app))
 
 ## commands
 
